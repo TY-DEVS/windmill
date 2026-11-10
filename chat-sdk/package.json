@@ -72,7 +72,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsdown && tsc -p tsconfig.build.json",
+    "build": "node init && tsdown && tsc -p tsconfig.build.json",
     "check": "tsc --noEmit",
     "test": "bun test"
   },

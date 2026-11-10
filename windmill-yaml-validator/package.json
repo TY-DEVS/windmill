@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "gen": "node scripts/gen-schemas.js",
-    "build": "npm run gen && tsc",
+    "build": "node init && npm run gen && tsc",
     "pretest": "npm run gen",
     "test": "jest",
     "test:watch": "jest --watch",
